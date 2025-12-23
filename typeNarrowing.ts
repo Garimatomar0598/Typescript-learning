@@ -18,11 +18,11 @@ typeof obj.type === "string" &&
 typeof obj.sugar === "number"
 
     )
-
+//iss main logical opeartor ka used kiya gya ha
 
 function serveOrder(item:chaiOrder | string){
 if(isChaiOrder(item)){
-    return 'serving ${itrm.type}chai with ${item.sugar}sugar'
+    return 'serving ${item.type}chai with ${item.sugar}sugar'
 }
 return 'serving custom chai:${item}'
 }
